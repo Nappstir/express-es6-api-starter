@@ -8,7 +8,7 @@ import routes from '../api/routes/v1';
 const app = express();
 
 // request logging. dev: console | production: file
-app.use(morgan('dev'))
+app.use(morgan('dev'));
 
 // gzip compression
 app.use(compression());

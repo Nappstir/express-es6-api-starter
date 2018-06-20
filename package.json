@@ -8,7 +8,9 @@
     "lint": "eslint **/*.js --ignore-path .gitignore",
     "lint:fix": "yarn lint -- --fix"
   },
-  "pre-commit": ["lint"],
+  "pre-commit": [
+    "lint"
+  ],
   "keywords": [
     "express",
     "node",
@@ -32,6 +34,7 @@
     "babel-preset-stage-2": "^6.24.1",
     "eslint": "^4.19.1",
     "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-babel": "^5.1.0",
     "eslint-plugin-import": "^2.12.0",
     "nodemon": "^1.17.5",
     "pre-commit": "^1.2.2"
