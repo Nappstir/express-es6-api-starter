@@ -2,6 +2,11 @@
 
 Boilerplate for building REST API's with ES6 and Express.
 
+## Features
+* Uses [yarn](https://yarnpkg.com/)
+* [Babel](https://babeljs.io/) used to convert ECMAScript 2015+ code into a backwards compatible version of JavaScript
+* Load environment variables separate from code [dotenv-safe](https://github.com/rolodato/dotenv-safe)
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
