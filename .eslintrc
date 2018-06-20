@@ -1,8 +1,8 @@
 {
   "rules": {
-    "semi": 1,
-    "comma-dangle": ["errors", "always"],
-    "arrow-parens": 1,
+    "semi": 2,
+    "comma-dangle": 2,
+    "arrow-parens": 2,
     "no-console": 0,
     "no-underscore-dangle": 0,
     "no-unused-vars": [
