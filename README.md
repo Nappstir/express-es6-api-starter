@@ -8,6 +8,7 @@ Boilerplate for building REST API's with ES6 and Express.
 * Load environment variables separate from code [dotenv-safe](https://github.com/rolodato/dotenv-safe)
 * Uses [helmet](https://github.com/helmetjs/helmet) to secure HTTP headers
 * [Morgan](https://github.com/expressjs/morgan) for HTTP request logging
+* [Compression](https://github.com/expressjs/compression) for gzip compression
 
 ## Getting Started
 
