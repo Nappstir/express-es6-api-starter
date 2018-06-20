@@ -9,6 +9,7 @@ Boilerplate for building REST API's with ES6 and Express.
 * [Helmet](https://github.com/helmetjs/helmet) to secure HTTP headers
 * [Morgan](https://github.com/expressjs/morgan) for HTTP request logging
 * [Compression](https://github.com/expressjs/compression) for gzip compression
+* Linting through [eslint](https://eslint.org/)
 
 ## Getting Started
 
