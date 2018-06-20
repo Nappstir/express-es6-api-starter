@@ -3,6 +3,7 @@ import morgan from 'morgan';
 import cors from 'cors';
 import helmet from 'helmet';
 import compression from 'compression';
+import routes from '../api/routes/v1';
 
 const app = express();
 
@@ -17,5 +18,8 @@ app.use(helmet());
 
 // enable CORS - Cros Origin Resource Sharing
 app.use(cors());
+
+// mount API v1 routes
+app.use('/v1', routes);
 
 export default app;
