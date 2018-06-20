@@ -4,7 +4,10 @@
   "description": "Boilerplate for building REST API's with ES6 and Express.",
   "main": "src/index.js",
   "scripts": {
-    "dev": "nodemon ./src/index.js --exec babel-node --presets es2015,stage-2"
+    "precommit": "yarn lint",
+    "dev": "nodemon ./src/index.js yarn lint:watch --exec babel-node --presets es2015,stage-2",
+    "lint": "eslint **/*.js --ignore-path .gitignore",
+    "lint:fix": "yarn lint -- --fix"
   },
   "keywords": [
     "express",
@@ -27,6 +30,9 @@
     "babel-cli": "^6.26.0",
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-stage-2": "^6.24.1",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.12.0",
     "nodemon": "^1.17.5"
   }
 }
