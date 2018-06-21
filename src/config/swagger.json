@@ -1,0 +1,41 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "express-es6-api-starter",
+    "description": "",
+    "version": "0.0.1"
+  },
+  "produces": ["application/json"],
+  "paths": {
+    "/v1/status": {
+      "get": {
+        "x-swagger-router-controller": "",
+        "operationId": "",
+        "tags": ["v1"],
+        "description": "Return the status of the server",
+        "parameters": [],
+        "responses": {}
+      }
+    },
+    "/test": {
+      "post": {
+        "x-swagger-router-controller": "home",
+        "operationId": "index",
+        "tags": ["/test"],
+        "description": "[Login 123](https://www.google.com)",
+        "parameters": [{
+          "name": "test",
+          "in": "formData",
+          "type": "array",
+          "collectionFormat": "multi",
+          "items": {
+            "type": "integer"
+           }
+        },
+      { "name": "profileId", "in": "formData", "required": true, "type": "string" },
+      { "name": "file", "in": "formData", "type": "file", "required": "true" }],
+        "responses": {}
+      }
+    }
+  }
+}
