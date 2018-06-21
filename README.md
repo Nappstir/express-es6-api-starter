@@ -2,6 +2,11 @@
 
 Boilerplate for building REST API's with ES6 and Express.
 
+Next steps:
+- [ ] Connect database. Most likely will use [Sequelize](http://docs.sequelizejs.com/)
+- [ ] Create User model
+- [ ] Integrate token authentication
+
 ## Features
 * [Yarn](https://yarnpkg.com/) instead of package-lock.json
 * [Babel](https://babeljs.io/) used to convert ECMAScript 2015+ code into a backwards compatible version of JavaScript
