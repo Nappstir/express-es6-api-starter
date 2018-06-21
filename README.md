@@ -10,6 +10,7 @@ Boilerplate for building REST API's with ES6 and Express.
 * [Morgan](https://github.com/expressjs/morgan) for HTTP request logging
 * [Compression](https://github.com/expressjs/compression) for gzip compression
 * Linting through [eslint](https://eslint.org/)
+* Testing with [Mocha](https://mochajs.org/) and [Supertest](https://github.com/visionmedia/supertest)
 
 ## Getting Started
 
@@ -36,10 +37,9 @@ End with an example of getting some data out of the system or using it for a lit
 
 ## Running the tests
 
-Explain how to run the automated tests for this system
-
 ```
-Give an example
+# run all tests with Mocha
+yarn test
 ```
 
 ## Deployment
