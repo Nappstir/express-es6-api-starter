@@ -10,11 +10,8 @@ Boilerplate for building REST API's with ES6 and Express.
 * [Morgan](https://github.com/expressjs/morgan) for HTTP request logging
 * [Compression](https://github.com/expressjs/compression) for gzip compression
 * Linting through [eslint](https://eslint.org/)
-<<<<<<< HEAD
 * [Swagger](https://github.com/scottie1984/swagger-ui-express) for api documentation
-=======
 * Testing with [Mocha](https://mochajs.org/) and [Supertest](https://github.com/visionmedia/supertest)
->>>>>>> test-integration
 
 ## Getting Started
 
